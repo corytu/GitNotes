@@ -16,6 +16,7 @@ Here is my place to make notes about Git. Most notes were organized from [Versio
 - [Network commands](#network-commands)
 - [Rebasing](#rebasing)
 - [Rewriting history](#rewriting-history)
+- [Other advanced functionalities](#other-advanced-functionalities)
 
 ----
 
@@ -310,3 +311,8 @@ A tracking branch is a local branch that represent a remote one. It looks like `
 
 - After deleting the topic branch label, the commits in the topic branch are no longer part of any named branch and will be garbage collected by Git
 - `git merge --squash <topic_branch>`
+
+## Other advanced functionalities
+
+- [`git bisect`](https://medium.com/進擊的-git-git-git/快速找出錯誤點-使用git-bisect-e1c3338e8db1): Use binary search to find the commit that introduced a bug
+- [`git cherry-pick`](https://cythilya.github.io/2018/05/30/git-cherry-pick/): Apply the changes introduced by some existing commits
